@@ -1,0 +1,5 @@
+train: data/images
+val: data/images  # you can later make a separate validation set
+
+nc: 2
+names: ['awake', 'drowsy']

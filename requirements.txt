@@ -1,0 +1,16 @@
+# Core dependencies
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# For Gradio interface - with compatible huggingface_hub version
+gradio>=5.49.0
+pillow>=10.0.0
+huggingface_hub>=0.33.5
+
+# Additional dependencies that ultralytics might need
+pyyaml>=6.0
+matplotlib>=3.7.0
+scipy>=1.10.0
